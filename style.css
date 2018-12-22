@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+
+}
+header{
+  background-image: Url(../back.jpg);
+  height: 100vh;
+  background: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid black;
+  transition: 0.5s ease;
+}
+ul li a:hover{
+  background-color: white;
+  color: blue;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+  }
+  main{
+    margin: auto;
+    max-width: 1200;
+  }
+  .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .title h1{
+    font-size: 60px;
+    color: blue;
+  }
+  .button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+  .btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black ;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
+  .btn:hover{
+      background-color: yellow;
+
+  }
